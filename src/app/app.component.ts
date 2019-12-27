@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent  {
   name = 'Angular';
   //Get property return private property
+  private _CustomerName: string;
 }
